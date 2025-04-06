@@ -102,7 +102,7 @@ export default function GastosPage() {
           <div className="bg-white p-6 rounded-xl shadow-2xl max-w-md w-full">
             <h3 className="text-xl font-semibold text-gray-700 mb-3">¿Eliminar gasto?</h3>
             <p className="text-gray-600 mb-6">
-              Vas a eliminar <span className="font-bold">"{gastoAEliminar.concepto}"</span>. Esta acción no se puede deshacer.
+              Vas a eliminar <span className="font-bold">{gastoAEliminar.concepto}</span>. Esta acción no se puede deshacer.
             </p>
             <div className="flex justify-end gap-3">
               <button
